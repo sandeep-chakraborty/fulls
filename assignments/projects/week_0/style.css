@@ -1,0 +1,50 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    gap: 1rem;
+
+}
+.nav_buttons{
+    display: flex;
+    gap: 1rem;
+}
+.nav>img{
+    width: 1px;
+    height: 2px;
+    border-radius: 50%;
+
+}
+.main_img>img{
+    width: 80vw;
+    height: 60vh;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.main_text{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+.main_text>p{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+.main_text>button{
+   padding: 15px 50px;
+   background-color: #1d4ed8;
+   color: white;
+   border-radius: 10px;
+   border: none;
+   font-size: large;
+}
